@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.24)  2 APR 2016 17:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.24)  2 APR 2016 18:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -332,6 +332,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks19
 \@floatcapt=\box27
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -396,20 +399,20 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \openout1 = `"zalozenia_projektowe,_specyfikacja_funkcjonalna,_kryteria ewaluac
 ji.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -502,28 +505,28 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OML+plm on input line 16.
+LaTeX Font Info:    Try loading font information for OML+plm on input line 17.
 (/usr/share/texlive/texmf-dist/tex/latex/polski/omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 16.
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 17.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/polski/omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 16.
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 17.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/polski/omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 16.
+(Font)              <12> on input line 17.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 16.
+(Font)              <8> on input line 17.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 16.
+(Font)              <6> on input line 17.
 Package epstopdf Info: Source file: <idea_sprzet-mech.eps>
 (epstopdf)                    date: 2016-04-02 17:46:13
 (epstopdf)                    size: 72846 bytes
@@ -532,7 +535,7 @@ Package epstopdf Info: Source file: <idea_sprzet-mech.eps>
 (epstopdf)                    size: 29098 bytes
 (epstopdf)             Command: <repstopdf --outfile=idea_sprzet-mech-eps-conve
 rted-to.pdf idea_sprzet-mech.eps>
-(epstopdf)             \includegraphics on input line 23.
+(epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
 
 <idea_sprzet-mech-eps-converted-to.pdf, id=1, 1072.005pt x 902.37125pt>
@@ -540,7 +543,7 @@ File: idea_sprzet-mech-eps-converted-to.pdf Graphic file (type pdf)
 
 <use idea_sprzet-mech-eps-converted-to.pdf>
 Package pdftex.def Info: idea_sprzet-mech-eps-converted-to.pdf used on input li
-ne 23.
+ne 24.
 (pdftex.def)             Requested size: 426.79134pt x 359.2485pt.
 Package epstopdf Info: Source file: <idea_programowa.eps>
 (epstopdf)                    date: 2016-04-02 17:46:13
@@ -550,7 +553,7 @@ Package epstopdf Info: Source file: <idea_programowa.eps>
 (epstopdf)                    size: 37265 bytes
 (epstopdf)             Command: <repstopdf --outfile=idea_programowa-eps-conver
 ted-to.pdf idea_programowa.eps>
-(epstopdf)             \includegraphics on input line 29.
+(epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
 
 <idea_programowa-eps-converted-to.pdf, id=2, 1304.875pt x 532.99126pt>
@@ -558,28 +561,28 @@ File: idea_programowa-eps-converted-to.pdf Graphic file (type pdf)
 
 <use idea_programowa-eps-converted-to.pdf>
 Package pdftex.def Info: idea_programowa-eps-converted-to.pdf used on input lin
-e 29.
+e 31.
 (pdftex.def)             Requested size: 426.79134pt x 174.32616pt.
  [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./idea_sprzet-mech-eps-con
 verted-to.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
- [2 <./idea_programowa-eps-converted-to.pdf>]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+ [2 <./idea_programowa-eps-converted-to.pdf>] [3] [4]
 (./zalozenia_projektowe,_specyfikacja_funkcjonalna,_kryteria ewaluacji.aux) ) 
 Here is how much of TeX's memory you used:
- 2485 strings out of 493304
- 35233 string characters out of 6139871
- 99903 words of memory out of 5000000
- 5896 multiletter control sequences out of 15000+600000
- 9320 words of font info for 28 fonts, out of 8000000 for 9000
+ 2494 strings out of 493304
+ 35460 string characters out of 6139871
+ 103963 words of memory out of 5000000
+ 5902 multiletter control sequences out of 15000+600000
+ 9824 words of font info for 29 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,5n,24p,558b,224s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/
@@ -589,10 +592,10 @@ st/fonts/type1/public/pl/plbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/pl/plr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr17.
 pfb>
 Output written on "zalozenia_projektowe,_specyfikacja_funkcjonalna,_kryteria ew
-aluacji.pdf" (2 pages, 101201 bytes).
+aluacji.pdf" (4 pages, 107974 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 40 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -4,6 +4,7 @@
 \usepackage{enumerate}
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage{indentfirst}  % załatwia to problem z brakiem wciąć na początku sekcji
 
 \usepackage{geometry}
 \newgeometry{tmargin=2.5cm, bmargin=2cm, lmargin=2cm, rmargin=2cm}
@@ -21,17 +22,117 @@
 \begin{figure}[H]
 \centering
 \includegraphics[width=15cm]{idea_sprzet-mech.eps}
+\caption{Schemat ideowy ilustrujący zależności między komponentami}
 \end{figure}
 
 \section{Dekompozycja oprogramowania:}
 \begin{figure}[H]
 \centering
 \includegraphics[width=15cm]{idea_programowa.eps}
+\caption{Schemat ideowy ilustrujący zależności między komponentami części programowej}
 \end{figure}
 
 \section{Opis komponentów:}
 
-\section{ Zależnosci we/wy:}
+\subsection{Komponenty elektroniczno - mechaniczne:}
+
+
+Bateria - Komponent odpowiedzialny za dostarczanie energii elektrycznej zasilającej Raspberry Pi oraz silniki. (uzupełnić parametry!!)
+
+
+Czujniki ultradźwiękowe - czujniki zbliżeniowe odpowiedzialne za wykrywanie przeszkód za pomocą fal ultradźwiękowych i wysyłanie odczytów do Raspberry. Czujniki ultradźwiękowe o parametrach:
+\begin{itemize}
+\item Napięcie zasilania: 5 V
+\item Średni pobór prądu: 15 mA
+\item Zakres pomiarowy: od 2 cm do 200 cm
+\item Wyjście: sygnał częstotliwościowy
+\item Częstotliwość pracy: 40 kHz
+\end{itemize}
+Czujniki stykowe- czujniki zbliżeniowe odpowiedzialne za wykrywanie przeszkód za pomocą styków, jest to opcja ostatecznego zatrzymania układu w przypadku, gdy przez czujniki ultradźwiękowe nie zostanie wykryte. Czujniki stykowe o parametrach:
+\begin{itemize}
+\item Napięcie pracy: maks. 250 V
+\item Natężenie prądu: maks. 5 A
+\item Liczba wyprowadzeń: 3 (C, NO, NC)
+\end{itemize}
+Kamera - komponent odpowiedzialny za przekazywanie obrazu otoczenia do Raspberry. Kamera o parametrach:
+\begin{itemize}
+\item Kamera zgodna z Raspberry Pi w wersji 3, 2, B+, A+ oraz starszych A i B
+\item Matryca: 5 MPx
+\item Czujnik: OV5647
+\item Matryca CCD: 1/4"
+\item Kąt widzenia - przekątna: 75,7 stopni
+\item Przesłona: 2,0
+\item Ogniskowa: 6 mm (zmienna)
+\item Posiada 4 otwory montażowe
+\item Wymiary: 32 x 32 mm
+\end{itemize}
+Mostek H- układ elektroniczny umożliwiający zmianę kierunku obrotu silnika prądu stałego przez "odwracanie" biegunów zasilania. Mostek H o parametrach:
+\begin{itemize}
+\item Maksymalne napięcie zasilania silników: 36 V
+\item Średni prąd kanał: 0,6 A
+\item Szczytowy prąd na kanał: 1,2 A
+\item Obudowa: DIP 16 (przewlekana)
+\item Wbudowane diody zabezpieczające
+\end{itemize}
+Silniki i koła - Komponenty odpowiedzialne za ruch robota w zależności od otrzymanych sygnałów.
+Wykorzystanie mostka H umożliwia pracę silnika w dwóch kierunkach. Parametry silników i kół:
+
+\begin{enumerate}
+\item Parametry silnika
+\begin{itemize}
+\item Napięcie zasilania: 5 V
+\item Pobór prądu: ok. 180 mA
+\item Zintegrowana przekładnia: 48:1
+\item Obustronny wał
+\item Prędkość obrotowa po przekładni: ok. 80 obr/min
+\item Moment obrotowy po przekładni: ok. 0,5 kg*cm (0,049 Nm)
+\end{itemize}
+
+\item Parametry koła
+\begin{itemize}
+\item Średnica opony: 65 mm
+\item Szerokość opony: 26 mm
+\end{itemize}
+\end{enumerate}
+
+\subsection{Komponenty programowe:}
+GUI użytkownika:
+\begin{itemize}
+\item przeznaczenie: Służy jako interfejs człowiek-maszyna
+\item funkcjonalności: GUI wyświetla obraz z kamery robota oraz dane sensoryczne robota. Pozwala również użytkownikowi na wydawanie rozkazów sterujących. 
+\end{itemize}
+
+Moduł komunikacji:
+\begin{itemize}
+\item przeznaczenie: Zapewnie połączenie między komuterem zewnętrznym a pokładowym
+\item funkcjonalności: Poprzez kanał komunikacyjny przesyłany jest obraz z kamery oraz dane sensoryczne (w jedną stroną), a także rozkazy użytkownika (w drugą stronę). 
+\end{itemize}
+
+Moduł kamery:
+\begin{itemize}
+\item przeznaczenie: Obsługa kamery
+\item funkcjonalności: Moduł pozyskuje obraz z kamery, dokonuje ewentualnej kompresji oraz przesyła dane do modułu komunikacji
+\end{itemize}
+
+Moduł sterowania silnikami:
+\begin{itemize}
+\item przeznaczenie: Zamiania otrzymanych rozkazów na odpowiednią sekwensję ruchów silników
+\item funkcjaonalności: Dane wejściowe modułu to polecenia dotyczące ruchu całego robota. Na ich podstawie moduł generuje sygnały wyjściowe decydujące o tym które silniki mają się poruszać, i z jaką prędkością (generowanie kanałów PWM). 
+\end{itemize}
+
+Moduł czujników:
+\begin{itemize}
+\item przeznaczenie: Pozyskiwanie informacji o otoczeniu robota
+\item funkcjonalności: Moduł dokonuje co niewielką chwilę czasu pomiaru odległości od otoczenia za pomocą czujników ultradźwiękowych. Oprócz tego reaguje na naciśnięcie czujników stykowych (micro switch)
+\end{itemize}
+
+Moduł sterowania autonomicznego:
+\begin{itemize}
+\item przeznaczenie: Niezależne od użytkownika sterowanie robotem w sytuacjach awaryjnych. 
+\item funkcjonalności: Na podstawie danych z czujników moduł podejmuje decyzję o awaryjnym zatrzymaniu robota, kiedy jego dalszy ruch grozi kolizją. Rozkazy tego modułu mają wyższy priorytet od rozkazów użytkownika. 
+\end{itemize}
+
+\section{ Zależnosci we/wy:} %nie wiem czy to już nie jest umieszczone na diagramach
 
 \section{ Kryteria ewaluacji:}
 
