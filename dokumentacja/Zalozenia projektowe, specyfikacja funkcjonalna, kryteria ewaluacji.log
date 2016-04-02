@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.2)  2 APR 2016 17:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.2)  2 APR 2016 17:42
 entering extended mode
 **"C:/GitHub/projekt_zespolowy-2016/dokumentacja/Zalozenia projektowe, specyfik
 acja funkcjonalna, kryteria ewaluacji.tex"
@@ -419,6 +419,14 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count88
+\float@exts=\toks18
+\float@box=\box26
+\@float@everytoks=\toks19
+\@floatcapt=\box27
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -433,9 +441,9 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count88
-\Gm@cntv=\count89
-\c@Gm@tempcnt=\count90
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
 \Gm@bindingoffset=\dimen105
 \Gm@wd@mp=\dimen106
 \Gm@odd@mp=\dimen107
@@ -444,7 +452,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen110
 \Gm@layouthoffset=\dimen111
 \Gm@layoutvoffset=\dimen112
-\Gm@dimlist=\toks18
+\Gm@dimlist=\toks20
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 *geometry* verbose mode - [ newgeometry ] result:
@@ -484,34 +492,34 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \openout1 = `"Zalozenia projektowe, specyfikacja funkcjonalna, kryteria ewaluac
 ji.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 (C:\Users\TwoHe\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count91
+\scratchcounter=\count92
 \scratchdimen=\dimen113
-\scratchbox=\box26
-\nofMPsegments=\count92
-\nofMParguments=\count93
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count94
+\scratchbox=\box28
+\nofMPsegments=\count93
+\nofMParguments=\count94
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count95
 \MPscratchDim=\dimen114
-\MPnumerator=\count95
-\makeMPintoPDFobject=\count96
-\everyMPtoPDFconversion=\toks20
+\MPnumerator=\count96
+\makeMPintoPDFobject=\count97
+\everyMPtoPDFconversion=\toks22
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -586,50 +594,86 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OML+plm on input line 15.
+LaTeX Font Info:    Try loading font information for OML+plm on input line 16.
 (C:\Users\TwoHe\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 15.
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 16.
 
 
 (C:\Users\TwoHe\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 15.
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 16.
 
 
 (C:\Users\TwoHe\AppData\Roaming\MiKTeX\2.9\tex\latex\polski\omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 15.
+(Font)              <12> on input line 16.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 15.
+(Font)              <8> on input line 16.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 15.
+(Font)              <6> on input line 16.
+Package epstopdf Info: Source file: <idea_sprzet-mech.eps>
+(epstopdf)                    date: 2016-04-02 16:40:52
+(epstopdf)                    size: 72846 bytes
+(epstopdf)             Output file: <idea_sprzet-mech-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-02 17:39:34
+(epstopdf)                    size: 29098 bytes
+(epstopdf)             Command: <epstopdf --outfile=idea_sprzet-mech-eps-conver
+ted-to.pdf idea_sprzet-mech.eps>
+(epstopdf)             \includegraphics on input line 23.
+Package epstopdf Info: Output file is already uptodate.
 
-[1
+<idea_sprzet-mech-eps-converted-to.pdf, id=1, 1072.005pt x 902.37125pt>
+File: idea_sprzet-mech-eps-converted-to.pdf Graphic file (type pdf)
+
+<use idea_sprzet-mech-eps-converted-to.pdf>
+Package pdftex.def Info: idea_sprzet-mech-eps-converted-to.pdf used on input li
+ne 23.
+(pdftex.def)             Requested size: 426.79134pt x 359.2485pt.
+Package epstopdf Info: Source file: <idea_programowa.eps>
+(epstopdf)                    date: 2016-04-02 16:40:34
+(epstopdf)                    size: 110092 bytes
+(epstopdf)             Output file: <idea_programowa-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-02 17:39:35
+(epstopdf)                    size: 37265 bytes
+(epstopdf)             Command: <epstopdf --outfile=idea_programowa-eps-convert
+ed-to.pdf idea_programowa.eps>
+(epstopdf)             \includegraphics on input line 29.
+Package epstopdf Info: Output file is already uptodate.
+
+<idea_programowa-eps-converted-to.pdf, id=2, 1304.875pt x 532.99126pt>
+File: idea_programowa-eps-converted-to.pdf Graphic file (type pdf)
+
+<use idea_programowa-eps-converted-to.pdf>
+Package pdftex.def Info: idea_programowa-eps-converted-to.pdf used on input lin
+e 29.
+(pdftex.def)             Requested size: 426.79134pt x 174.32616pt.
+ [1
 
 
-{C:/Users/TwoHe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/TwoHe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./idea_sprz
+et-mech-eps-converted-to.pdf> <./idea_programowa-eps-converted-to.pdf>] [2]
 ("Zalozenia projektowe, specyfikacja funkcjonalna, kryteria ewaluacji.aux") ) 
 Here is how much of TeX's memory you used:
- 2487 strings out of 493622
- 34879 string characters out of 3141215
- 98831 words of memory out of 3000000
- 5846 multiletter control sequences out of 15000+200000
+ 2557 strings out of 493622
+ 36027 string characters out of 3141215
+ 99198 words of memory out of 3000000
+ 5909 multiletter control sequences out of 15000+200000
  8321 words of font info for 26 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 38i,4n,24p,604b,196s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,6n,24p,604b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C
 :/Users/TwoHe/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plrm.enc}<C:/Users/
 TwoHe/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr10.pfb><C:/Users/TwoH
 e/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr17.pfb>
 Output written on "Zalozenia projektowe, specyfikacja funkcjonalna, kryteria ew
-aluacji.pdf" (1 page, 22384 bytes).
+aluacji.pdf" (2 pages, 85453 bytes).
 PDF statistics:
- 15 PDF objects out of 1000 (max. 8388607)
+ 24 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
