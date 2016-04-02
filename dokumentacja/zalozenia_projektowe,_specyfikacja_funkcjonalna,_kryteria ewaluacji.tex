@@ -37,7 +37,7 @@
 \subsection{Komponenty elektroniczno - mechaniczne:}
 
 
-Bateria - Komponent odpowiedzialny za dostarczanie energii elektrycznej zasilającej Raspberry Pi oraz silniki. (uzupełnić parametry!!)
+Bateria - komponent odpowiedzialny za dostarczanie energii elektrycznej zasilającej Raspberry Pi oraz silniki. (uzupełnić parametry!!)
 
 
 Czujniki ultradźwiękowe - czujniki zbliżeniowe odpowiedzialne za wykrywanie przeszkód za pomocą fal ultradźwiękowych i wysyłanie odczytów do Raspberry. Czujniki ultradźwiękowe o parametrach:
@@ -48,13 +48,13 @@ Czujniki ultradźwiękowe - czujniki zbliżeniowe odpowiedzialne za wykrywanie p
 \item Wyjście: sygnał częstotliwościowy
 \item Częstotliwość pracy: 40 kHz
 \end{itemize}
-Czujniki stykowe- czujniki zbliżeniowe odpowiedzialne za wykrywanie przeszkód za pomocą styków, jest to opcja ostatecznego zatrzymania układu w przypadku, gdy przez czujniki ultradźwiękowe nie zostanie wykryte. Czujniki stykowe o parametrach:
+Czujniki stykowe - czujniki zbliżeniowe odpowiedzialne za wykrywanie przeszkód za pomocą styków, jest to opcja ostatecznego zatrzymania układu w przypadku, gdy przeszkody nie zostanie wykryte przez czujniki ultradźwiękowe - o parametrach:
 \begin{itemize}
 \item Napięcie pracy: maks. 250 V
 \item Natężenie prądu: maks. 5 A
 \item Liczba wyprowadzeń: 3 (C, NO, NC)
 \end{itemize}
-Kamera - komponent odpowiedzialny za przekazywanie obrazu otoczenia do Raspberry. Kamera o parametrach:
+Kamera - komponent odpowiedzialny za przekazywanie obrazu otoczenia do Raspberry - o parametrach:
 \begin{itemize}
 \item Kamera zgodna z Raspberry Pi w wersji 3, 2, B+, A+ oraz starszych A i B
 \item Matryca: 5 MPx
@@ -66,7 +66,7 @@ Kamera - komponent odpowiedzialny za przekazywanie obrazu otoczenia do Raspberry
 \item Posiada 4 otwory montażowe
 \item Wymiary: 32 x 32 mm
 \end{itemize}
-Mostek H- układ elektroniczny umożliwiający zmianę kierunku obrotu silnika prądu stałego przez "odwracanie" biegunów zasilania. Mostek H o parametrach:
+Mostek H - układ elektroniczny umożliwiający zmianę kierunku obrotu silnika prądu stałego przez,,odwracanie" biegunów zasilania - o parametrach:
 \begin{itemize}
 \item Maksymalne napięcie zasilania silników: 36 V
 \item Średni prąd kanał: 0,6 A
@@ -74,7 +74,7 @@ Mostek H- układ elektroniczny umożliwiający zmianę kierunku obrotu silnika p
 \item Obudowa: DIP 16 (przewlekana)
 \item Wbudowane diody zabezpieczające
 \end{itemize}
-Silniki i koła - Komponenty odpowiedzialne za ruch robota w zależności od otrzymanych sygnałów.
+Silniki i koła - komponenty odpowiedzialne za ruch robota w zależności od otrzymanych sygnałów.
 Wykorzystanie mostka H umożliwia pracę silnika w dwóch kierunkach. Parametry silników i kół:
 
 \begin{enumerate}
@@ -119,7 +119,7 @@ Moduł sterowania silnikami:
 \item przeznaczenie: Zamiania otrzymanych rozkazów na odpowiednią sekwensję ruchów silników
 \item funkcjaonalności: Dane wejściowe modułu to polecenia dotyczące ruchu całego robota. Na ich podstawie moduł generuje sygnały wyjściowe decydujące o tym które silniki mają się poruszać, i z jaką prędkością (generowanie kanałów PWM). 
 \end{itemize}
-
+\newpage
 Moduł czujników:
 \begin{itemize}
 \item przeznaczenie: Pozyskiwanie informacji o otoczeniu robota
@@ -132,16 +132,16 @@ Moduł sterowania autonomicznego:
 \item funkcjonalności: Na podstawie danych z czujników moduł podejmuje decyzję o awaryjnym zatrzymaniu robota, kiedy jego dalszy ruch grozi kolizją. Rozkazy tego modułu mają wyższy priorytet od rozkazów użytkownika. 
 \end{itemize}
 
-\section{ Zależnosci we/wy:} %nie wiem czy to już nie jest umieszczone na diagramach
+%\section{ Zależności we/wy:} %nie wiem czy to już nie jest umieszczone na diagramach
 
 \section{ Kryteria ewaluacji:}
 
-Robot czterokołowy umożliwi zdalne sterowanie w pomieszczeniu zamkniętym i dokonanie inspekcji pomieszczenia z zapisem video i sygnałów ze wszystkich czujników pomiarowych. Wykrywanie przeszkód odbywa się dwustopniowo: przez analizę danych z czujników ultradźwiękowych, oraz przez analizę danych odebranych z czujników stykowych. Po wykryciu przeszkody robot spróbuje ominąć przeszkodę. W razie braku możliwosci ominięcia przeszkody robot zatrzyma się.
+Robot czterokołowy umożliwi zdalne sterowanie w pomieszczeniu zamkniętym i dokonanie inspekcji pomieszczenia z zapisem video i sygnałów ze wszystkich czujników pomiarowych. Wykrywanie przeszkód odbywa się dwustopniowo: przez analizę danych z czujników ultradźwiękowych, oraz przez analizę danych odebranych z czujników stykowych. Po wykryciu przeszkody robot spróbuje ominąć przeszkodę. W razie braku możliwości ominięcia przeszkody robot zatrzyma się.
 
 \section{ Baza sprzętowa i programowa:}
 Komputer pokładowy:
 \begin{itemize}
-\item Płytka uruchomieniowa: Raspberry Pi 1 model A
+\item Płytka uruchomieniowa: Raspberry Pi 3 model B
 \item System operacyjny:     Raspbian GNU/Linux 8.0 (jessie)
 \item Kompilator:            gcc 4.9.2
 \item Framework robotyczny:  ROS indigo 1.11.16
