@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.2)  2 APR 2016 17:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.2)  2 APR 2016 17:30
 entering extended mode
 **"C:/GitHub/projekt_zespolowy-2016/dokumentacja/Zalozenia projektowe, specyfik
 acja funkcjonalna, kryteria ewaluacji.tex"
@@ -609,33 +609,27 @@ LaTeX Font Info:    External font `plex10' loaded for size
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <6> on input line 15.
 
+[1
 
-! LaTeX Error: File `./idea sprzet-mech' not found.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 ...ludegraphics[scale=.7]{./idea sprzet-mech}
-                                                  
-? 
-! Emergency stop.
- ...                                              
-                                                  
-l.22 ...ludegraphics[scale=.7]{./idea sprzet-mech}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
- 
+{C:/Users/TwoHe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+("Zalozenia projektowe, specyfikacja funkcjonalna, kryteria ewaluacji.aux") ) 
 Here is how much of TeX's memory you used:
- 2485 strings out of 493622
- 34804 string characters out of 3141215
- 96831 words of memory out of 3000000
+ 2487 strings out of 493622
+ 34879 string characters out of 3141215
+ 98831 words of memory out of 3000000
  5846 multiletter control sequences out of 15000+200000
  8321 words of font info for 26 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 38i,4n,24p,341b,237s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 38i,4n,24p,604b,196s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C
+:/Users/TwoHe/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/pl/plrm.enc}<C:/Users/
+TwoHe/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr10.pfb><C:/Users/TwoH
+e/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/pl/plr17.pfb>
+Output written on "Zalozenia projektowe, specyfikacja funkcjonalna, kryteria ew
+aluacji.pdf" (1 page, 22384 bytes).
+PDF statistics:
+ 15 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
