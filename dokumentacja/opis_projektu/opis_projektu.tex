@@ -11,11 +11,11 @@
 \maketitle
 
 \section{Problem projektu}
-    Przedmiotem tego projektu jest pół-autonomiczny pojazd czterokołowy wyposażony w kamerę, sensory mierzące odległość wykorzystywane do orientacji, zbierania danych, a także do unikania zderzeń z przeszkodami niezależnych od woli sterującego (opóźnienia w transferze danych z kamery). W przyszłości zespół ma nadzieję na rozwój projektu wzbogacając go o m.in. możliwość mapowania otoczenia, umożliwić interfejs do komunikacji z montowanym działem laserowym czy prostym manipulatorem/ramieniem/chwytakiem umożliwiającym zbieranie próbek terenu czy wykonywanie prostych operacji na napotkanych obiektach.
+    Przedmiotem tego projektu jest pół-autonomiczny pojazd czterokołowy wyposażony w kamerę wykorzystywaną do transmisji obrazu do stacji operatorskiej i dwustopniowy system detekcji kolizji, na który składają się sensory ultradźwiękowe, jako pierwszy stopień systemu detekcji kolizji, mierzące odległość od obiektów otoczenia wykorzystywane również do orientacji oraz czujniki stykowe (w tej roli czujniki krańcowe z dźwignią) jako drugi - ostateczny - stopień  detekcji kolizji. W przypadku otrzymania sygnału z czujników krańcowych - świadczącego o niebezpiecznie bliskiej odległości od przeszkody - pojazd zatrzyma się, jest to decyzja ostateczna i niezaprzeczalna dająca możliwość osobie sterującej otrzymanie obrazu bieżącej pozycji (już po np. opóźnieniach czy innego typu problemach z przysyłaniem danych). W przyszłości zespół ma nadzieję na rozwój projektu wzbogacając go o m.in. możliwość mapowania otoczenia, umożliwić interfejs do komunikacji z montowanym działem laserowym czy prostym manipulatorem/ramieniem/chwytakiem umożliwiającym zbieranie próbek terenu czy wykonywanie prostych operacji na napotkanych obiektach.
     
-    Spodziewany wynik prac to wyżej opisany zdalnie sterowany pojazd bezzałogowy umożliwiający np. zbieranie informacji na temat nowych miejsc o nieznanych warunkach środowiskowych, pobieranie próbek z miejsc objętych skażeniem, czy wykorzystanie w wojsku. Jest to ważny temat umożliwiający człowiekowi interakcję w miejscach, warunkach, w których ta interakcja byłaby niewskazana czy wręcz niebezpieczna. 
+    Spodziewany wynik prac to wyżej opisany zdalnie sterowany pojazd bezzałogowy który będzie spełniał kryteria ewaluacji opisane w dokumencie pt. ,,Założenia projektowe, specyfikacja funkcjonalna, kryteria ewaluacji".
 
-    Wyniki będą umieszczane w archiwum z oprogramowaniem wraz z dokumentacją algorytmów, oprogramowania, układu mechanicznego i elektronicznego oraz przykładami działania.
+    Wyniki będą umieszczane w archiwum wraz z oprogramowaniem, dokumentacją algorytmów, oprogramowania, układu mechanicznego i elektronicznego, przykładami działania oraz dokumentacja multimedialną w postaci zdjęć lub/i nagrań przedstawiających wczesne fazy rozwoju oraz testy.
 \section{Plan pracy}
     Na następnej stronie znajduje się wykres Gantta prezentujący podział oraz rozplanowanie zadań w czasie. Dekompozycja układów mechanicznego, elektronicznego oraz oprogramowania wraz ze szczegółowymi opisami i osobami odpowiedzialnymi za poszczególne komponenty znajdują się w dokumencie pt. ,,Założenia projektowe, specyfikacja funkcjonalna, kryterium ewaluacji".    
         \begin{figure}
@@ -23,7 +23,7 @@
             \includegraphics[scale=0.7]{autko}
             \label{fig:my_label}
         \end{figure}
-        
+\newpage
 \section{Doręczenie}
     Raporty i postępy będą prezentowane w terminach zaznaczonych w diagramie Gantta jako kamienie milowe:
     \begin{itemize}
@@ -95,7 +95,7 @@
         \end{itemize}
     \subsection{Filip Malinowski}
         \begin{itemize}
-            \item Opis analityczny
+            \item Kinematyka robota
             \item Opracowanie algorytmów
             \item Kwestie programistyczne
             \item Projekt komputerowy

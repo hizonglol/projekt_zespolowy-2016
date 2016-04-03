@@ -1,3 +1,10 @@
+[4 kwietnia 2016]
+Należy jeszcze dokończyć:
+	- jeśli ktos ma jakiś lepszy pomysł na opis projektu bądź chce coś dodac to be my guest
+	- brak osoby odpowiedzialenj za poszczególne komponenty (propozycja uzupełnienia w najbliższym czasie na konferencji via skype)
+	-  oraz to tego trochę dużo więc zacytuję:
+	"Architektura oprogramowania układu sterowania robota (na to składają się punkty 9-14 z obecnego diagramu Gantta, ale znowu są nieco ad hoc). Muszą się pojawić konkretne komponenty programowe, wejścia i wyjścia, precyzyjne definicje typów zmiennych ( które będą się przemieszczały pomiędzy poszczególnymi wejściami i wyjściami ), analiza spójności systemu i kompatybilności wejściowo-wyjściowej poszczególnych komponentów. Definicje protokołów komunikacji. Znowu, każdy komponent programowy, musi mieć przypisaną osobę za niego odpowiedzialną"
+
 [sobota 2 kwietnia 2016]
 Należy jeszcze dokończyć:
 	- poprawa celu projektu (postaram się jak najszybciej go poprawić JM)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.3)  4 APR 2016 00:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.3)  4 APR 2016 01:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -528,7 +528,12 @@ Overfull \hbox (73.25264pt too wide) in paragraph at lines 23--25
 
 LaTeX Warning: Float too large for page by 5.52878pt on input line 25.
 
+[1
+
+{/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2 <./autko.pdf>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 30.
+
 (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -545,24 +550,21 @@ Overfull \hbox (47.00078pt too wide) in paragraph at lines 36--61
  [] 
  []
 
-[1
-
-{/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2 <./autko.pdf>]
+[3]
 Overfull \hbox (0.75066pt too wide) in paragraph at lines 77--78
 \OT4/cmr/m/n/10 Koordynator pro-jek-tu - przy-dzie-la-nie i nad-zór za-da« wy-k
 o-ny-wa-nych przez czªon-
  []
 
-[3] [4] (./opis_projektu.aux) ) 
+[4] [5] (./opis_projektu.aux) ) 
 Here is how much of TeX's memory you used:
  2037 strings out of 494501
  27858 string characters out of 6167031
- 86754 words of memory out of 5000000
+ 84754 words of memory out of 5000000
  5281 multiletter control sequences out of 15000+600000
  12777 words of font info for 37 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 37i,7n,24p,664b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,7n,24p,1220b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015basic/texmf-dist/fonts/e
 nc/dvips/pl/plrm.enc}</usr/local/texlive/2015basic/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/p
@@ -570,10 +572,10 @@ ublic/pl/plbx12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public
 /pl/plr10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/pl/pl
 r12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/pl/plr17.pf
 b></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/pl/plr7.pfb>
-Output written on opis_projektu.pdf (4 pages, 81275 bytes).
+Output written on opis_projektu.pdf (5 pages, 82047 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
