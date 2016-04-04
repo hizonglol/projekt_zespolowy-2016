@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.3)  4 APR 2016 00:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.3)  5 APR 2016 01:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -659,24 +659,29 @@ e 31.
 
 
 {/usr/local/texlive/2015basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./
-idea_sprzet-mech-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
- (/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/omscmr.fd
+idea_sprzet-mech-eps-converted-to.pdf>] <gui.png, id=13, 975.04276pt x 383.031p
+t>
+File: gui.png Graphic file (type png)
+ <use gui.png>
+Package pdftex.def Info: gui.png used on input line 38.
+(pdftex.def)             Requested size: 426.79134pt x 167.65747pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 50.
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
-
-[2 <./idea_programowa-eps-converted-to.pdf>] [3] [4]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+ [2 <./idea_programowa-eps-converted-to.pdf> <./gui.png>] [3] [4] [5] [6]
 (./zalozenia_projektowe,_specyfikacja_funkcjonalna,_kryteria ewaluacji.aux) ) 
 Here is how much of TeX's memory you used:
- 2587 strings out of 494501
- 36906 string characters out of 6167031
- 101083 words of memory out of 5000000
- 5817 multiletter control sequences out of 15000+600000
+ 2594 strings out of 494501
+ 36978 string characters out of 6167031
+ 100091 words of memory out of 5000000
+ 5822 multiletter control sequences out of 15000+600000
  9824 words of font info for 29 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 38i,5n,24p,559b,224s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,5n,24p,559b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/
 usr/local/texlive/2015basic/texmf-dist/fonts/enc/dvips/pl/plrm.enc}</usr/local/
 texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
@@ -684,10 +689,10 @@ cal/texlive/2015basic/texmf-dist/fonts/type1/public/pl/plbx12.pfb></usr/local/t
 exlive/2015basic/texmf-dist/fonts/type1/public/pl/plr10.pfb></usr/local/texlive
 /2015basic/texmf-dist/fonts/type1/public/pl/plr17.pfb>
 Output written on "zalozenia_projektowe,_specyfikacja_funkcjonalna,_kryteria ew
-aluacji.pdf" (4 pages, 107413 bytes).
+aluacji.pdf" (6 pages, 129601 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 47 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -32,6 +32,14 @@
 \caption{Schemat ideowy ilustrujący zależności między komponentami części programowej}
 \end{figure}
 
+\section{Dekompozycja aplikacji na komputerze zewnętrznym:}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm]{gui}
+    \caption{Schemat ideowy ilustrujący zależności w obrębie aplikacji na komputerze zewnętrznym}
+    \label{fig:my_label}
+\end{figure}
+
 \section{Opis komponentów:}
 
 \subsection{Komponenty elektroniczno - mechaniczne:}
@@ -42,9 +50,10 @@ Bateria - komponent odpowiedzialny za dostarczanie energii elektrycznej zasilaj�
 \item Typ baterii Ni-MH (niklowo-metalowo-wodorkowy)
 \item Napięcie nominalne 8,4 V
 \item Pojemność 12000 mAh
+\item Osoba odpowiedzialna: Piotr Hebel
 \end{itemize}
 
-
+\newpage
 Czujniki ultradźwiękowe - czujniki zbliżeniowe odpowiedzialne za wykrywanie przeszkód za pomocą fal ultradźwiękowych i wysyłanie odczytów do Raspberry. Czujniki ultradźwiękowe o parametrach:
 \begin{itemize}
 \item Napięcie zasilania: 5 V
@@ -52,12 +61,14 @@ Czujniki ultradźwiękowe - czujniki zbliżeniowe odpowiedzialne za wykrywanie p
 \item Zakres pomiarowy: od 2 cm do 200 cm
 \item Wyjście: sygnał częstotliwościowy
 \item Częstotliwość pracy: 40 kHz
+\item Osoba odpowiedzialna: Andrzej Szmyt
 \end{itemize}
 Czujniki stykowe - czujniki zbliżeniowe odpowiedzialne za wykrywanie przeszkód za pomocą styków, jest to opcja ostatecznego zatrzymania układu w przypadku, gdy przeszkody nie zostanie wykryte przez czujniki ultradźwiękowe - o parametrach:
 \begin{itemize}
 \item Napięcie pracy: maks. 250 V
 \item Natężenie prądu: maks. 5 A
 \item Liczba wyprowadzeń: 3 (C, NO, NC)
+\item Osoba odpowiedzialna: Andrzej Szmyt
 \end{itemize}
 Kamera - komponent odpowiedzialny za przekazywanie obrazu otoczenia do Raspberry - o parametrach:
 \begin{itemize}
@@ -70,6 +81,7 @@ Kamera - komponent odpowiedzialny za przekazywanie obrazu otoczenia do Raspberry
 \item Ogniskowa: 6 mm (zmienna)
 \item Posiada 4 otwory montażowe
 \item Wymiary: 32 x 32 mm
+\item Osoba odpowiedzialna: Piotr Jabłoński
 \end{itemize}
 Mostek H - układ elektroniczny umożliwiający zmianę kierunku obrotu silnika prądu stałego przez,,odwracanie" biegunów zasilania - o parametrach:
 \begin{itemize}
@@ -78,7 +90,9 @@ Mostek H - układ elektroniczny umożliwiający zmianę kierunku obrotu silnika 
 \item Szczytowy prąd na kanał: 1,2 A
 \item Obudowa: DIP 16 (przewlekana)
 \item Wbudowane diody zabezpieczające
+\item Osoba odpowiedzialna: Piotr Hebel
 \end{itemize}
+\newpage
 Silniki i koła - komponenty odpowiedzialne za ruch robota w zależności od otrzymanych sygnałów.
 Wykorzystanie mostka H umożliwia pracę silnika w dwóch kierunkach. Parametry silników i kół:
 
@@ -91,6 +105,7 @@ Wykorzystanie mostka H umożliwia pracę silnika w dwóch kierunkach. Parametry 
 \item Obustronny wał
 \item Prędkość obrotowa po przekładni: ok. 80 obr/min
 \item Moment obrotowy po przekładni: ok. 0,5 kg*cm (0,049 Nm)
+\item Osoba odpowiedzialna: Piotr Hebel
 \end{itemize}
 
 \item Parametry koła
@@ -105,39 +120,64 @@ GUI użytkownika:
 \begin{itemize}
 \item przeznaczenie: Służy jako interfejs człowiek-maszyna
 \item funkcjonalności: GUI wyświetla obraz z kamery robota oraz dane sensoryczne robota. Pozwala również użytkownikowi na wydawanie rozkazów sterujących. 
+\item Osoba odpowiedzialna: Piotr Jabłoński
 \end{itemize}
 
 Moduł komunikacji:
 \begin{itemize}
 \item przeznaczenie: Zapewnie połączenie między komuterem zewnętrznym a pokładowym
-\item funkcjonalności: Poprzez kanał komunikacyjny przesyłany jest obraz z kamery oraz dane sensoryczne (w jedną stroną), a także rozkazy użytkownika (w drugą stronę). 
+\item funkcjonalności: Poprzez kanał komunikacyjny przesyłany jest obraz z kamery oraz dane sensoryczne (w jedną stroną), a także rozkazy użytkownika (w drugą stronę).
+\item Osoba odpowiedzialna: Andrzej Szmyt
 \end{itemize}
 
 Moduł kamery:
 \begin{itemize}
 \item przeznaczenie: Obsługa kamery
 \item funkcjonalności: Moduł pozyskuje obraz z kamery, dokonuje ewentualnej kompresji oraz przesyła dane do modułu komunikacji
+\item Osoba odpowiedzialna: Piotr Jabłoński
 \end{itemize}
 
 Moduł sterowania silnikami:
 \begin{itemize}
 \item przeznaczenie: Zamiania otrzymanych rozkazów na odpowiednią sekwensję ruchów silników
-\item funkcjaonalności: Dane wejściowe modułu to polecenia dotyczące ruchu całego robota. Na ich podstawie moduł generuje sygnały wyjściowe decydujące o tym które silniki mają się poruszać, i z jaką prędkością (generowanie kanałów PWM). 
+\item funkcjaonalności: Dane wejściowe modułu to polecenia dotyczące ruchu całego robota. Na ich podstawie moduł generuje sygnały wyjściowe decydujące o tym które silniki mają się poruszać, i z jaką prędkością (generowanie kanałów PWM).
+\item Osoba odpowiedzialna: Piotr Hebel
 \end{itemize}
 \newpage
 Moduł czujników:
 \begin{itemize}
 \item przeznaczenie: Pozyskiwanie informacji o otoczeniu robota
 \item funkcjonalności: Moduł dokonuje co niewielką chwilę czasu pomiaru odległości od otoczenia za pomocą czujników ultradźwiękowych. Oprócz tego reaguje na naciśnięcie czujników stykowych (micro switch)
+\item Osoba odpowiedzialna: Andrzej Szmyt
 \end{itemize}
 
 Moduł sterowania autonomicznego:
 \begin{itemize}
 \item przeznaczenie: Niezależne od użytkownika sterowanie robotem w sytuacjach awaryjnych. 
-\item funkcjonalności: Na podstawie danych z czujników moduł podejmuje decyzję o awaryjnym zatrzymaniu robota, kiedy jego dalszy ruch grozi kolizją. Rozkazy tego modułu mają wyższy priorytet od rozkazów użytkownika. 
+\item funkcjonalności: Na podstawie danych z czujników moduł podejmuje decyzję o awaryjnym zatrzymaniu robota, kiedy jego dalszy ruch grozi kolizją. Rozkazy tego modułu mają wyższy priorytet od rozkazów użytkownika.
+\item Osoba odpowiedzialna: Filip Malinowski
 \end{itemize}
 
 %\section{ Zależności we/wy:} %nie wiem czy to już nie jest umieszczone na diagramach
+\subsection{Komponenty aplikacji na komputerze zewnętrznym}
+Aplikacja:
+\begin{itemize}
+    \item Odbieranie danych w postaci obrazu z kamery
+    \item Wykorzystany kod odtwarzacza na licencji open source
+    \item Osoba odpowiedzialna: Piotr Jabłoński
+\end{itemize}
+Okno aplikacji:
+\begin{itemize}
+    \item Wyświetlanie wizualizacji, wartości danych pomiarowych, obrazu z kamery oraz innych danych pomocniczych.
+    \item Osoba odpowiedzialna: Piotr Jabłoński
+\end{itemize}
+Zawartość baza danych:
+\begin{itemize}
+    \item Kody błędów, ostrzeżeń, informacji.
+    \item Konfiguracja aplikacji - zawiera pozycje kolejno ponumerowane z wartością odpowiadającą danemu ustawieniu.
+    \item Osoba odpowiedzialna: Piotr Jabłoński
+\end{itemize}
+
 
 \section{ Kryteria ewaluacji:}
 
@@ -152,11 +192,14 @@ Komputer pokładowy:
 \item Framework robotyczny:  ROS indigo 1.11.16
 \end{itemize}
 
+\newpage
+
 Komputer zewnętrzny:
 \begin{itemize}
 \item System operacyjny:     Ubuntu 14.04.4 LTS (trusty)
-\item Kompilator:            gcc 4.8
+\item Kompilator:            gcc 4.9.2
 \item Framework robotyczny:  ROS indigo 1.11.16
+\item Framwork aplikacyjny: Qt 5.6.0
 \end{itemize}
 
 
