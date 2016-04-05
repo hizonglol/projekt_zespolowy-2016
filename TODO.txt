@@ -1,3 +1,8 @@
+[6 kwietnia 2016]
+	- Dekompozycja układu mechanicznego
+	- poprawa diagramu Gantta (JM)
+	- czyżby to tyle?!
+
 [4 kwietnia 2016]
 Należy jeszcze dokończyć:
 	- jeśli ktos ma jakiś lepszy pomysł na opis projektu bądź chce coś dodac to be my guest

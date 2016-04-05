@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.3)  4 APR 2016 21:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.3)  6 APR 2016 01:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -564,7 +564,7 @@ Here is how much of TeX's memory you used:
  5281 multiletter control sequences out of 15000+600000
  12777 words of font info for 37 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 37i,7n,24p,1220b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,7n,24p,1318b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015basic/texmf-dist/fonts/e
 nc/dvips/pl/plrm.enc}</usr/local/texlive/2015basic/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/p
@@ -572,7 +572,7 @@ ublic/pl/plbx12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public
 /pl/plr10.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/pl/pl
 r12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/pl/plr17.pf
 b></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/pl/plr7.pfb>
-Output written on opis_projektu.pdf (5 pages, 82125 bytes).
+Output written on opis_projektu.pdf (5 pages, 82206 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream

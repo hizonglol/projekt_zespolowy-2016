@@ -15,9 +15,7 @@
 
 \begin{document}
 \maketitle
-
-
-
+ 
 \section{Dekompozycja układu mechanicznego i elektronicznego:} 
 \begin{figure}[H]
 \centering
@@ -45,7 +43,7 @@
 \subsection{Komponenty elektroniczno - mechaniczne:}
 
 
-Bateria - komponent odpowiedzialny za dostarczanie energii elektrycznej zasilającej Raspberry Pi oraz silniki o następujących paramterach:
+Bateria - komponent odpowiedzialny za dostarczanie energii elektrycznej zasilającej Raspberry Pi oraz silniki o następujących parametrach:
 \begin{itemize}
 \item Typ baterii Ni-MH (niklowo-metalowo-wodorkowy)
 \item Napięcie nominalne 8,4 V
@@ -125,7 +123,7 @@ GUI użytkownika:
 
 Moduł komunikacji:
 \begin{itemize}
-\item przeznaczenie: Zapewnie połączenie między komuterem zewnętrznym a pokładowym
+\item przeznaczenie: Zapewnienie połączenie między komputerem zewnętrznym a pokładowym
 \item funkcjonalności: Poprzez kanał komunikacyjny przesyłany jest obraz z kamery oraz dane sensoryczne (w jedną stroną), a także rozkazy użytkownika (w drugą stronę).
 \item Osoba odpowiedzialna: Andrzej Szmyt
 \end{itemize}
@@ -139,8 +137,8 @@ Moduł kamery:
 
 Moduł sterowania silnikami:
 \begin{itemize}
-\item przeznaczenie: Zamiania otrzymanych rozkazów na odpowiednią sekwensję ruchów silników
-\item funkcjaonalności: Dane wejściowe modułu to polecenia dotyczące ruchu całego robota. Na ich podstawie moduł generuje sygnały wyjściowe decydujące o tym które silniki mają się poruszać, i z jaką prędkością (generowanie kanałów PWM).
+\item przeznaczenie: Zamiana otrzymanych rozkazów na odpowiednią sekwencję ruchów silników
+\item funkcjonalności: Dane wejściowe modułu to polecenia dotyczące ruchu całego robota. Na ich podstawie moduł generuje sygnały wyjściowe decydujące o tym które silniki mają się poruszać, i z jaką prędkością (generowanie kanałów PWM).
 \item Osoba odpowiedzialna: Piotr Hebel
 \end{itemize}
 \newpage
@@ -183,6 +181,9 @@ Zawartość baza danych:
 
 Robot czterokołowy umożliwi zdalne sterowanie w pomieszczeniu zamkniętym i dokonanie inspekcji pomieszczenia z zapisem video i sygnałów ze wszystkich czujników pomiarowych. Wykrywanie przeszkód odbywa się dwustopniowo: przez analizę danych z czujników ultradźwiękowych, oraz przez analizę danych odebranych z czujników stykowych. Po wykryciu przeszkody robot spróbuje ominąć przeszkodę. W razie braku możliwości ominięcia przeszkody robot zatrzyma się.
 
+Przeprowadzenie testu:
+Robot zostanie umieszczony w sali \textbf{06} w budynku \textbf{C-3}, natomiast operator wraz z komputerem zewnętrznym będzie stał za drzwiami na korytarzu. Jego zadaniem będzie zdalne sterowanie robotem po sali obok korzystając z komputera zewnętrznego oraz polegając wyłącznie na obrazie odebranym z robota. W pewnym momencie testu na drodze robota zostanie umieszczona przeszkoda celem sprawdzenia poprawności systemu detekcji kolizji. 
+
 \section{ Baza sprzętowa i programowa:}
 Komputer pokładowy:
 \begin{itemize}
@@ -199,7 +200,7 @@ Komputer zewnętrzny:
 \item System operacyjny:     Ubuntu 14.04.4 LTS (trusty)
 \item Kompilator:            gcc 4.9.2
 \item Framework robotyczny:  ROS indigo 1.11.16
-\item Framwork aplikacyjny: Qt 5.6.0
+\item Framework aplikacyjny: Qt 5.6.0
 \end{itemize}
 
 
