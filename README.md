@@ -8,4 +8,4 @@ Piotra Jabłońskiego,
 Jędrzeja Maliniaka,
 Filipa Malinowskiego,
 Andrzeja Szmyta
-at Wroclaw University of Technology under the lead of dr inż Krzysztofa Arenta.
+at Wroclaw University of Technology under the lead of dr inż Krzysztof Arent.
