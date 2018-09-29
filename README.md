@@ -1,12 +1,11 @@
 # projekt_zespolowy-2016
-Projekt grupowy z przedmiotu Projekt Zespołowy.
+Group project from the course "Projekt Zespołowy".
 
-Wykonywany przez:
+Contributors:
 Piotra Dulewicza,
 Piotra Hebla,
 Piotra Jabłońskiego,
 Jędrzeja Maliniaka,
 Filipa Malinowskiego,
 Andrzeja Szmyta
-na Politechnice Wroclawskiej pod przewodnictwem dr inż Krzysztofa Arenta.
-Liderem grupy jest Jędrzej Maliniak.
+at Wroclaw University of Technology under the lead of dr inż Krzysztofa Arenta.
